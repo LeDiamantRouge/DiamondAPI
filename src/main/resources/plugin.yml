@@ -1,0 +1,3 @@
+name: DiamondAPI
+version: '${project.version}'
+main: fr.lediamantrouge.diamondapi.Main
