@@ -11,29 +11,29 @@
 ## How to install ?
  ### Maven :
  ```xml
-	<repository>
-	    <id>jitpack.io</id>
-	    <url>https://jitpack.io</url>
-	</repository>
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
  ```
  ```xml
-	<dependency>
-	    <groupId>com.github.LeDiamantRouge</groupId>
-	    <artifactId>DiamondAPI</artifactId>
-	    <version>433d19972f</version>
-	</dependency>
+<dependency>
+    <groupId>com.github.LeDiamantRouge</groupId>
+    <artifactId>DiamondAPI</artifactId>
+    <version>433d19972f</version>
+</dependency>
  ```
  ### Gradle :
  ```xml
-	repositories {
-		mavenCentral()
-		maven { url 'https://jitpack.io' }
-	}
+repositories {
+	mavenCentral()
+	maven { url 'https://jitpack.io' }
+}
 ```
 ```xml
-	dependencies {
-		implementation 'com.github.LeDiamantRouge:DiamondAPI:433d19972f'
-	}
+dependencies {
+	implementation 'com.github.LeDiamantRouge:DiamondAPI:433d19972f'
+}
 ```
 
 ## Exemples
