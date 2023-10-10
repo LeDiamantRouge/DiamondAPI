@@ -49,7 +49,7 @@ DiamondAPI.get().getChatManager().setPlayerFormat(player, "MyFormat -> §6%playe
 DiamondAPI.get().getChatManager().setPlayerFormat(player, null);
 
 // Get player chat format
-String format_for_player = DiamondAPI.get().getChatManager().getPlayerChatFormat(player, message);
+String formatForPlayer = DiamondAPI.get().getChatManager().getPlayerChatFormat(player, message);
 ```
 ### Tag :
 ```java
