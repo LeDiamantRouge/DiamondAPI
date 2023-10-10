@@ -11,10 +11,10 @@
 ## How to install ?
  ### Maven :
  ```xml
-  <repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
  ```
  ```xml
 	<dependency>
@@ -25,14 +25,14 @@
  ```
  ### Gradle :
  ```xml
-    repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		mavenCentral()
+		maven { url 'https://jitpack.io' }
+	}
 ```
 ```xml
 	dependencies {
-	        implementation 'com.github.LeDiamantRouge:DiamondAPI:433d19972f'
+		implementation 'com.github.LeDiamantRouge:DiamondAPI:433d19972f'
 	}
 ```
 
@@ -91,6 +91,6 @@ DiamondAPI.get().getDataBaseManager().removeConnection("BedwarsBDD");
 player.sendMessage(MessageManager.centerText("Text is center in chat"));
 
 // Parse second to last time (Like : 70 -> return 01:10)
-String formatTime = MessageManager.secondsToFormatMinute(20);
+String formatTime = MessageManager.secondsToFormatMinute(70);
 ```
 And some other stuff...
