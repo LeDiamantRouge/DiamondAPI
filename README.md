@@ -6,7 +6,6 @@
  - Easy chat gestion
  - A simple connection creator for mysql and other in future...
  - Messages Utils (French)
- - Short game play utils
 
 ## How to install ?
  **Don't forget put the plugin in your server plugins**
@@ -27,7 +26,6 @@
  ### Gradle :
  ```xml
 repositories {
-	mavenCentral()
 	maven { url 'https://jitpack.io' }
 }
 ```
