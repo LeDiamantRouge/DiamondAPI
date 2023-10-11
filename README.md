@@ -37,7 +37,7 @@ dependencies {
 }
 ```
 
-## Exemples
+## Examples
 ### Chat :
 ```java
 // Set global chat format
