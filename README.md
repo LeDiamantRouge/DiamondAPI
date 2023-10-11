@@ -9,6 +9,7 @@
  - Short game play utils
 
 ## How to install ?
+ **Don't forget put the plugin in your server plugins**
  ### Maven :
  ```xml
 <repository>
